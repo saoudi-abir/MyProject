@@ -13,6 +13,10 @@ import { ProfileComponent } from './profile/profile.component';
 import { BoardAdminComponent } from './board-admin/board-admin.component';
 import { BoardModeratorComponent } from './board-moderator/board-moderator.component';
 import { BoardUserComponent } from './board-user/board-user.component';
+import { AddTutorialComponent } from './home/add-tutorial/add-tutorial.component';
+import { TutorialDetailsComponent } from './home/tutorial-details/tutorial-details.component';
+import { TutorialsListComponent } from './home/tutorials-list/tutorials-list.component';
+
 
 import { authInterceptorProviders } from './_helpers/auth.interceptor';
 
@@ -25,7 +29,10 @@ import { authInterceptorProviders } from './_helpers/auth.interceptor';
     ProfileComponent,
     BoardAdminComponent,
     BoardModeratorComponent,
-    BoardUserComponent
+    BoardUserComponent,
+    AddTutorialComponent,
+    TutorialDetailsComponent,
+    TutorialsListComponent
   ],
   imports: [
     BrowserModule,

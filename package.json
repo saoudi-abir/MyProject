@@ -42,5 +42,18 @@
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
     "typescript": "~3.9.5"
-  }
+  },
+  "description": "For JWT – Token based Authentication with Web API, we’re gonna call 2 endpoints:\r - POST `api/auth/signup` for User Registration\r - POST `api/auth/signin` for User Login",
+  "main": "karma.conf.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bezkoder/angular-10-jwt-authentication.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bezkoder/angular-10-jwt-authentication/issues"
+  },
+  "homepage": "https://github.com/bezkoder/angular-10-jwt-authentication#readme"
 }

@@ -7,6 +7,7 @@ import { TokenStorageService } from './_services/token-storage.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
+  title = 'Angular10JwtAuth';
   private roles: string[];
   isLoggedIn = false;
   showAdminBoard = false;
